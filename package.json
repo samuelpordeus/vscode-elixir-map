@@ -10,14 +10,24 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:elixir-map.helloWorld"
+		"onCommand:elixir-map.jsonToStringMap",
+		"onCommand:elixir-map.jsonToHashMap",
+		"onCommand:elixir-map.mapToJson"
 	],
 	"main": "./src/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "elixir-map.helloWorld",
-				"title": "Hello World"
+				"command": "elixir-map.jsonToStringMap",
+				"title": "Elixir Map: JSON to String Map"
+			},
+			{
+				"command": "elixir-map.jsonToHashMap",
+				"title": "Elixir Map: JSON to Hash Map"
+			},
+			{
+				"command": "elixir-map.mapToJson",
+				"title": "Elixir Map: Map to JSON"
 			}
 		]
 	},
