@@ -1,4 +1,4 @@
-const jsonToHashMap = require('./jsonToHashMap');
+const jsonToAtomMap = require('./jsonToAtomMap');
 const jsonToStringMap = require('./jsonToStringMap');
 const mapToJson = require('./mapToJson');
-module.exports = [jsonToHashMap, jsonToStringMap, mapToJson];
+module.exports = [jsonToAtomMap, jsonToStringMap, mapToJson];

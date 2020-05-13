@@ -1,8 +1,13 @@
 {
 	"name": "elixir-map",
+	"publisher": "samuel-pordeus",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/samuelpordeus/vscode-elixir-map"
+	},
 	"displayName": "Elixir Map",
 	"description": "An extension to help you with your Elixir Maps!",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
@@ -11,7 +16,7 @@
 	],
 	"activationEvents": [
 		"onCommand:elixir-map.jsonToStringMap",
-		"onCommand:elixir-map.jsonToHashMap",
+		"onCommand:elixir-map.jsonToAtomMap",
 		"onCommand:elixir-map.mapToJson"
 	],
 	"main": "./src/extension.js",
@@ -22,8 +27,8 @@
 				"title": "Elixir Map: JSON to String Map"
 			},
 			{
-				"command": "elixir-map.jsonToHashMap",
-				"title": "Elixir Map: JSON to Hash Map"
+				"command": "elixir-map.jsonToAtomMap",
+				"title": "Elixir Map: JSON to Atom Map"
 			},
 			{
 				"command": "elixir-map.mapToJson",

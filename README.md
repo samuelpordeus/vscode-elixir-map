@@ -14,11 +14,11 @@ Convert the Elixir Map you select into a JSON
 
 ![Map to JSON](https://media3.giphy.com/media/UqAl27QceZ1lPuLhqd/giphy.gif)
 
-### Elixir Map: JSON to Hash Map
+### Elixir Map: JSON to Atom Map
 
-Convert the JSON you select into an Elixir Hash Map
+Convert the JSON you select into an Elixir Atom Map
 
-![JSON to Hash Map](https://media3.giphy.com/media/YnwTPjdv5i52I4J8Di/giphy.gif)
+![JSON to Atom Map](https://media3.giphy.com/media/YnwTPjdv5i52I4J8Di/giphy.gif)
 
 ### Elixir Map: JSON to String Map
 
