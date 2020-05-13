@@ -7,7 +7,7 @@
 	},
 	"displayName": "Elixir Map",
 	"description": "An extension to help you with your Elixir Maps!",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
