@@ -1,65 +1,32 @@
-# elixir-map README
+# Elixir Map
 
-This is the README for your extension "elixir-map". After writing up a brief description, we recommend including the following sections.
+A Visual Studio Code extension that helps you with your maps in Elixir!
+
+## Installation
+
+You can install it through the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=samuel-pordeus.elixir-map).
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+### Elixir Map: Map to JSON
 
-For example if there is an image subfolder under your extension project workspace:
+Convert the Elixir Map you select into a JSON
 
-\!\[feature X\]\(images/feature-x.png\)
+![Map to JSON](https://media3.giphy.com/media/UqAl27QceZ1lPuLhqd/giphy.gif)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+### Elixir Map: JSON to Hash Map
 
-## Requirements
+Convert the JSON you select into an Elixir Hash Map
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+![JSON to Hash Map](https://media3.giphy.com/media/YnwTPjdv5i52I4J8Di/giphy.gif)
 
-## Extension Settings
+### Elixir Map: JSON to String Map
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Convert the JSON you select into an Elixir String Map
 
-For example:
+![JSON to String Map](https://media3.giphy.com/media/H7l4nQgA1sWgHYfKJA/giphy.gif)
 
-This extension contributes the following settings:
+## Contributing
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Feel free to suggest some new features or report bugs [creating a new issue](https://github.com/samuelpordeus/vscode-elixir-map/issues/new).
+Or even better, you can open a pull request! :smile:
