@@ -9,12 +9,12 @@ function handler() {
 
   // This logic is terrible and needs to be improved,
   // specially the atom map RegEx.
-  if (highlight.match(/"([a-zA-Z0-9-]+)" =>/g)) {
+  if (highlight.match(/"(\w+)"\s*=>/g)) {
     // It's a string map!
-    json = json.replace(/"([a-zA-Z0-9-]+)" => /g, '\"$1\": ')
+    json = json.replace(/"(\w+)"\s*=>\s*/g, '\"$1\": ')
   } else {
     // It's an atom map! (please send help)
-    json = json.replace(/([a-zA-Z0-9-]+): /g, '\"$1\": ')
+    json = json.replace(/(\w+):\s*/g, '\"$1\": ')
   }
 
   editor.edit(builder => {

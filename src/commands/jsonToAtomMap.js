@@ -7,7 +7,7 @@ function handler() {
 
   var atom_map = highlight.replace(/' '/g, '')
   atom_map = atom_map.replace(/{/g, '%{')
-  atom_map = atom_map.replace(/"([a-zA-Z0-9-]+)":/g, '\$1\: ');
+  atom_map = atom_map.replace(/"(\w+)":/g, '\$1\: ');
 
   editor.edit(builder => {
     if (selection.isEmpty) {

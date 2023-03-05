@@ -7,7 +7,7 @@ function handler() {
 
   var string_map = highlight.replace(/' '/g, '')
   string_map = string_map.replace(/{/g, '%{')
-  string_map = string_map.replace(/"([a-zA-Z0-9-]+)":/g, '\"$1\" =>')
+  string_map = string_map.replace(/"(\w+)":/g, '\"$1\" =>')
 
   editor.edit(builder => {
     if (selection.isEmpty) {
